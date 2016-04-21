@@ -3,7 +3,7 @@
 ReactJS version of the original AdminLTE dashboard - https://github.com/almasaeed2010/AdminLTE
 
 
-### UPDATES: 
+### UPDATES:
 
 - [UI Elements](./reactjs-adminlte/public/src/ui-elements) turning up.
 
@@ -52,14 +52,14 @@ More stuff coming soon. Stay tuned!
 - React Hot Loader can be used to ease your development workflow. This can be done by installing dev dependencies from `package.json` file. If you haven't, then
 run `npm install webpack-dev-server` and `npm install react-hot-loader`.
 - Then in your HTML, change your javascript bundles' source paths to point to the webpack-dev-server proxy in your `script` tags. So if you have something
-like this 
+like this
 
 ```html
 <script src="/dist/js/vendors.js"></script>
 <script src="/dist/js/app.bundle.js"></script>
 ```
 
-change this to 
+change this to
 
 ```html
 <script src="http://localhost:8080/dist/js/vendors.js"></script>
@@ -74,5 +74,5 @@ This is still a work in progress and will get better over time. Will try and thi
 
 - Re-usable chart components
 - Command line options to choose between client-side rendering and server-side rendering in ReactJS
-- Including D3 / C3 charts 
+- Including D3 / C3 charts
 
